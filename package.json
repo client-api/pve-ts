@@ -1,0 +1,25 @@
+{
+  "name": "@client-api/pve-ts",
+  "version": "8.x",
+  "description": "OpenAPI client for @client-api/pve-ts",
+  "author": "OpenAPI-Generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/client-api/pve-ts.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^4.0 || ^5.0",
+    "vitest": "^2.1.0",
+    "@types/node": "^20.0.0",
+    "undici": "^7.24.4",
+    "ws": "^8.18.0",
+    "@types/ws": "^8.5.0"
+  }
+}
